@@ -26,7 +26,7 @@
             <tbody>
                 <?php foreach ($users as $user): ?>
                 <tr>
-                    <!-- <td><?= $this->Number->format($user->id) ?></td>  -->
+                    <?= $this->Number->format($user->id) ?>
                     <td><?= h($user->nombre) ?></td>
                     <td><?= h($user->apellido) ?></td>
                     <td><?= h($user->email) ?></td>
